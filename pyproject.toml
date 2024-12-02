@@ -12,3 +12,7 @@ dev = ["sqlfluff>=3.2.5"]
 [tool.sqlfluff.core]
 dialect = "duckdb"
 exclude_rules = ["structure.using"]
+max_line_length = 120
+
+[tool.sqlfluff.rules.capitalisation.keywords]
+capitalisation_policy = "upper"
