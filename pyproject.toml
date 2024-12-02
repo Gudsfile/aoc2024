@@ -16,3 +16,6 @@ max_line_length = 120
 
 [tool.sqlfluff.rules.capitalisation.keywords]
 capitalisation_policy = "upper"
+
+[tool.sqlfluff.rules.references.keywords]
+ignore_words = "level"

@@ -1,0 +1,3 @@
+.read "payloads/day02_1.sql"
+.read "payloads/day02_1B.sql"
+.read "payloads/day02_2.sql"
